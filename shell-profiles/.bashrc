@@ -118,6 +118,14 @@ test() {
   php artisan test "$@"
 }
 
+full-test() {
+	php artisan test --parallel --coverage --min=100
+}
+
+full-type-test() {
+	php artisan test --parallel --type-coverage --min=100
+}
+
 queue() {
   php artisan queue:work
 }

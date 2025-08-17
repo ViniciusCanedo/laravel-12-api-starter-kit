@@ -127,6 +127,14 @@ function test {
 	php artisan test @args
 }
 
+function full-test {
+	php artisan test --parallel --coverage --min=100
+}
+
+function full-type-test {
+	php artisan test --parallel --type-coverage --min=100
+}
+
 function queue {
 	php artisan queue:work
 }
