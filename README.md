@@ -70,53 +70,54 @@ php artisan serve # ou php -S localhost:{$PORT} -t public
 
 ```
 📁 laravel-12-api-starter-kit/  
-├── 📁 app/
-│   ├── 📁 Console/
-│   │   └── 📁 Commands/
-│   ├── 📁 Http/
-│   │   ├── 📁 Controllers/
-│   │   ├── 📁 Middleware/
-│   │   ├── 📁 Requests/
-│   │   └── 📁 Resources/
-│   ├── 📁 Jobs/
-│   ├── 📁 Mail/
-│   ├── 📁 Models/
-│   ├── 📁 Notifications/
-│   ├── 📁 Policies/
-│   ├── 📁 Providers/
-│   └── 📁 Support/
-│       ├── 📁 Interfaces/
-│       ├── 📁 Services/
-│       └── 📁 Traits/
-├── 📁 bootstrap/
-├── 📁 config/
-├── 📁 database/
-│   ├── 📁 factories/
-│   ├── 📁 migrations/
-│   └── 📁 seeders/
-├── 📁 public/
-│   └── 📁 vendor/
-│   │   └── 📁 log-viewer/
-├── 📁 resources/
-│   ├── 📁 css/
-│   ├── 📁 js/
-│   └── 📁 views/
-│       └── 📁 vendor/
-│           └── 📁 mail/
-│               ├── 📁 html/
-|               |   └── 📁 theme/
-│               └── 📁 mail/
-├── 📁 routes/
-├── 📁 shell_profiles/
-├── 📁 storage/
-│   ├── 📁 app/
-│   │   ├── 📁 private/
-│   │   └── 📁 public/
-│   ├── 📁 framework/
-│   └── 📁 logs/
-└── 📁 tests/
-    ├── 📁 Feature/
-    └── 📁 Unit/
+├── 📁 app
+    ├── 📁 Auth
+│   ├── 📁 Console
+│   │   └── 📁 Commands
+│   ├── 📁 Http
+│   │   ├── 📁 Controllers
+│   │   ├── 📁 Middleware
+│   │   ├── 📁 Requests
+│   │   └── 📁 Resources
+│   ├── 📁 Jobs
+│   ├── 📁 Mail
+│   ├── 📁 Models
+│   ├── 📁 Notifications
+│   ├── 📁 Policies
+│   ├── 📁 Providers
+│   └── 📁 Support
+│       ├── 📁 Interfaces
+│       ├── 📁 Services
+│       └── 📁 Traits
+├── 📁 bootstrap
+├── 📁 config
+├── 📁 database
+│   ├── 📁 factories
+│   ├── 📁 migrations
+│   └── 📁 seeders
+├── 📁 public
+│   └── 📁 vendor
+│   │   └── 📁 log-viewer
+├── 📁 resources
+│   ├── 📁 css
+│   ├── 📁 js
+│   └── 📁 views
+│       └── 📁 vendor
+│           └── 📁 mail
+│               ├── 📁 html
+|               |   └── 📁 theme
+│               └── 📁 mail
+├── 📁 routes
+├── 📁 shell_profiles
+├── 📁 storage
+│   ├── 📁 app
+│   │   ├── 📁 private
+│   │   └── 📁 public
+│   ├── 📁 framework
+│   └── 📁 logs
+└── 📁 tests
+    ├── 📁 Feature
+    └── 📁 Unit
 ```
 
 ## 🧪 Boas Práticas de Testes
@@ -163,7 +164,6 @@ php artisan serve # ou php -S localhost:{$PORT} -t public
 - `homolog`: Código em homologação
 - `feature/*`: Novas funcionalidades
 - `bugfix/*`: Correções de bugs
-- `hotfix/*`: Correções urgentes para produção
 
 ## 📚 Recursos Adicionais
 
