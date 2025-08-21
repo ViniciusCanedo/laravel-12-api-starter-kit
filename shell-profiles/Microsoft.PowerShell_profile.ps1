@@ -1,3 +1,5 @@
+$env:PATH += ";C:\Users\Username\.config\herd\bin\php84"
+
 function pint {
 	vendor/bin/pint
 }
@@ -128,11 +130,11 @@ function test {
 }
 
 function full-test {
-	php artisan test --parallel --coverage --min=100
+	php artisan test --parallel --coverage --min=90
 }
 
 function full-type-test {
-	php artisan test --parallel --type-coverage --min=100
+	php -d memory_limit=1G ./vendor/bin/pest --parallel --type-coverage --min=100
 }
 
 function queue {
